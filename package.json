@@ -2,7 +2,7 @@
   "name": "twitter-bot",
   "version": "0.0.1",
   "description": "Bot para Twitter, versao experimental.",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/server.js"
@@ -17,5 +17,18 @@
   "devDependencies": {
     "nodemon": "^2.0.2",
     "sucrase": "^3.12.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarmentof/twtBot.git"
+  },
+  "keywords": [
+    "twtBot",
+    "Bot",
+    "Twitter"
+  ],
+  "bugs": {
+    "url": "https://github.com/sarmentof/twtBot/issues"
+  },
+  "homepage": "https://github.com/sarmentof/twtBot#readme"
 }
